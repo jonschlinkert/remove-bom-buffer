@@ -1,6 +1,6 @@
 # strip-bom-buffer [![NPM version](https://badge.fury.io/js/strip-bom-buffer.svg)](http://badge.fury.io/js/strip-bom-buffer)
 
-> Strip byte order marks from a buffer.
+> Strip a byte order mark (BOM) from a buffer.
 
 ## Install
 
