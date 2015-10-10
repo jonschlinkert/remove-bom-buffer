@@ -9,10 +9,10 @@
 
 var isBuffer = require('is-buffer');
 
-module.exports = function (val) {
-  if (!isBuffer(val)) return val;
-  if (String(val.slice(0, 3)) === '\ufeff') {
-    return val.slice(3);
+module.exports = function (buffer) {
+  if (!isBuffer(buffer)) return buffer;
+  if (String(buffer.slice(0, 3)) === '\ufeff') {
+    return buffer.slice(3);
   }
-  return val;
+  return buffer;
 };
