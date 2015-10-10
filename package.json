@@ -19,6 +19,9 @@
   "scripts": {
     "test": "mocha"
   },
+  "dependencies": {
+    "is-buffer": "^1.1.0"
+  },
   "devDependencies": {
     "mocha": "*"
   },
@@ -34,15 +37,10 @@
   "verb": {
     "related": {
       "list": [
-        "read-file",
-        "read-yaml",
-        "read-data",
-        "write",
-        "copy"
+        "cr",
+        "copy",
+        "strip-bom-string"
       ]
     }
-  },
-  "dependencies": {
-    "is-buffer": "^1.1.0"
   }
 }
