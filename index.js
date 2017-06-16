@@ -7,10 +7,11 @@
 
 'use strict';
 
+var isUTF8 = require('is-utf8');
 var isBuffer = require('is-buffer');
 
 module.exports = function(buf) {
-  if (isBuffer(buf) && String(buf.slice(0, 3)) === '\ufeff') {
+  if (isBuffer(buf) && isUTF8(buf) && String(buf.slice(0, 3)) === '\ufeff') {
     return buf.slice(3);
   }
   return buf;

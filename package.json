@@ -20,7 +20,8 @@
     "test": "mocha"
   },
   "dependencies": {
-    "is-buffer": "^1.1.5"
+    "is-buffer": "^1.1.5",
+    "is-utf8": "^0.2.1"
   },
   "devDependencies": {
     "gulp-format-md": "^0.1.11",
