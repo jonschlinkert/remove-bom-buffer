@@ -1,7 +1,7 @@
 /*!
- * strip-bom-buffer <https://github.com/jonschlinkert/strip-bom-buffer>
+ * remove-bom-buffer <https://github.com/jonschlinkert/remove-bom-buffer>
  *
- * Copyright (c) 2015, 2017, Jon Schlinkert.
+ * Copyright (c) 2015-2017, Jon Schlinkert.
  * Released under the MIT License.
  */
 

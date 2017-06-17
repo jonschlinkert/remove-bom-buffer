@@ -1,12 +1,16 @@
 {
-  "name": "strip-bom-buffer",
-  "description": "Strip a byte order mark (BOM) from a buffer.",
-  "version": "1.0.1",
-  "homepage": "https://github.com/jonschlinkert/strip-bom-buffer",
+  "name": "remove-bom-buffer",
+  "description": "Remove a byte order mark (BOM) from a buffer.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/jonschlinkert/remove-bom-buffer",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
-  "repository": "jonschlinkert/strip-bom-buffer",
+  "contributors": [
+    "Blaine Bublitz (https://twitter.com/BlaineBublitz)",
+    "Jon Schlinkert (http://twitter.com/jonschlinkert)"
+  ],
+  "repository": "jonschlinkert/remove-bom-buffer",
   "bugs": {
-    "url": "https://github.com/jonschlinkert/strip-bom-buffer/issues"
+    "url": "https://github.com/jonschlinkert/remove-bom-buffer/issues"
   },
   "license": "MIT",
   "files": [
@@ -31,9 +35,10 @@
     "bom",
     "buffer",
     "byte-order-mark",
-    "file",
-    "fs",
-    "nl",
+    "remove",
+    "strip-bom",
+    "strip-bom-buffer",
+    "strip-bom-string",
     "normalize",
     "strip"
   ],
