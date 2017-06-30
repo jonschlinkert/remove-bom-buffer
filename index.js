@@ -10,8 +10,13 @@
 var isUTF8 = require('is-utf8');
 var isBuffer = require('is-buffer');
 
+function maybeUTF8(buf) {
+  // Only "maybe" because we aren't sniffing the whole buffer
+  return isUTF8(buf.slice(0, 7));
+}
+
 module.exports = function(buf) {
-  if (isBuffer(buf) && isUTF8(buf) && String(buf.slice(0, 3)) === '\ufeff') {
+  if (isBuffer(buf) && maybeUTF8(buf) && String(buf.slice(0, 3)) === '\ufeff') {
     return buf.slice(3);
   }
   return buf;
