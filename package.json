@@ -6,6 +6,7 @@
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "contributors": [
     "Blaine Bublitz (https://twitter.com/BlaineBublitz)",
+    "Erik Kemperman (https://github.com/erikkemperman)",
     "Jon Schlinkert (http://twitter.com/jonschlinkert)"
   ],
   "repository": "jonschlinkert/remove-bom-buffer",
@@ -35,12 +36,12 @@
     "bom",
     "buffer",
     "byte-order-mark",
+    "normalize",
     "remove",
+    "strip",
     "strip-bom",
     "strip-bom-buffer",
-    "strip-bom-string",
-    "normalize",
-    "strip"
+    "strip-bom-string"
   ],
   "verb": {
     "related": {
